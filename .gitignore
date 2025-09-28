@@ -1,0 +1,4 @@
+build/
+*.o
+treeseg_gui
+comando.txt
