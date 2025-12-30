@@ -326,7 +326,7 @@ int main(int argc, char *argv[]) {
                            "Version: 1.0\n"
                            "Developed for processing point cloud data (PCD) files.\n"
                            "Supports multiple TreeSeg programs.\n"
-                           "© 2025 Your Name/Organization");
+                           "2025 Timóteo M Silva/FURB");
     });
 
     // Layout
