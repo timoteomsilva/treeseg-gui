@@ -18,6 +18,8 @@ Uma interface gráfica (GUI) para o TreeSeg, facilitando a seleção de programa
 - Baseado no [TreeSeg](https://github.com/apburt/treeseg) de Andrew Burt (MIT License).
 - Desenvolvimento da GUI com contribuições de Grok (xAI) para ajustes e integrações.
 - Licença: MIT (veja [LICENSE](LICENSE)).
-
+## Notas
+- Qt5, VTK ≥ 7, Point Cloud Library (PCL) ≥ 1.10, código-fonte do TreeSeg (Burt et al., 2019). Testado com sucesso no Ubuntu 20.04 LTS e 22.04 LTS. Espera-se que funcione no Ubuntu 24.04 LTS com pequenos ajustes (por exemplo, utilizando libvtk9-dev em vez de libvtk7-dev).
+- Os executáveis originais do treeseg devem ser compilados separadamente e estar disponíveis no PATH do sistema ou na pasta build
 ## Contribuições
 Pull requests são bem-vindos! Use Issues para sugestões ou bugs.
