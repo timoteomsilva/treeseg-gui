@@ -3,7 +3,7 @@
 Uma interface gráfica (GUI) para o treeseg, facilitando a seleção de programas, configuração de parâmetros e visualização de nuvens de pontos (PCD) usando PCL.
 
 ## Funcionalidades
-- Menu com programas do TreeSeg (downsample, findstems, segmentcrown, etc.).
+- Menu com programas do treeseg (downsample, findstems, segmentcrown, etc.).
 - Configuração de parâmetros via interface.
 - Visualizador integrado para múltiplos arquivos PCD.
 - Log de ações em tempo real.
