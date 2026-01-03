@@ -81,7 +81,7 @@ int main(int argc, char *argv[]) {
     QWidget *currentParamWidget = nullptr;
     QString currentProgramName; // Track current program for run button or logging
 
-    // Define TreeSeg programs explicitly
+    // Define treeseg programs explicitly
     QStringList treeSegPrograms = {
         "downsample",
         "findstems",
@@ -322,7 +322,7 @@ int main(int argc, char *argv[]) {
     QAction *aboutAction = helpMenu->addAction("About");
     QObject::connect(aboutAction, &QAction::triggered, [&]() {
         QMessageBox::about(&window, "About TreeSeg GUI",
-                           "TreeSeg GUI\n"
+                           "treeseg GUI\n"
                            "Version: 1.0\n"
                            "Developed for processing point cloud data (PCD) files.\n"
                            "Supports multiple TreeSeg programs.\n"
